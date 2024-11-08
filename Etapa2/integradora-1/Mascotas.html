@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" hrt="ASLestilosjs">
+    </head>
+    <body>
+        <h1>Cual es tu mascota preferida?</h1>
+        <h2>Selecciona una y te muestro como es:</h2>
+        <button value="perro" onclick="mimascota('perro')">Perro</button>
+        <button value="gato" onclick="mimascota('gato')">Gato</button>
+        <script language="javascript">
+            function mimascota(op){
+                switch(op){
+                    case'perro':
+                    document.body.style.background="#f3f3f3 url('perros.png')no-repeat right top";
+                    break;
+                    case'gato':
+                    document.body.style.background="#f3f3f3 url('gatos.png')no-repeat right top";
+                    break;
+                }
+            }
+        </script>
+    </body>
+</html>
